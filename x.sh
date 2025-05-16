@@ -1,7 +1,5 @@
 #!/bin/bash
 
-trap 'echo "..." && exit 0' EXIT
-
 BOLD="\e[1m"
 RESET="\e[0m"
 INVERTED="\e[7m"
