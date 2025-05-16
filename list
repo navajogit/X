@@ -1,0 +1,8 @@
+WINDOWS:
+irm https://raw.githubusercontent.com/navajogit/vm_win/refs/heads/main/shortcuts.ps1 | iex
+irm https://raw.githubusercontent.com/navajogit/vm_win/refs/heads/main/wallpapers.ps1 | iex
+irm https://raw.githubusercontent.com/navajogit/vm_win/refs/heads/main/startup.ps1 | iex
+irm https://christitus.com/win | iex
+
+LINUX:
+bash <(curl -s https://raw.githubusercontent.com/navajogit/vm_lin/refs/heads/main/startup.sh)
