@@ -1,3 +1,10 @@
+WIN:
+curl -k https://github.com/navajogit | findstr "RUN"
+
+LIN:
+curl -s https://github.com/navajogit | grep -oPm 1 'RUN \K[^*]+'
+curl -s https://github.com/navajogit | grep -oPm 1 'RUN [^*]+'
+
 WINDOWS:
 irm https://raw.githubusercontent.com/navajogit/vm_win/refs/heads/main/shortcuts.ps1 | iex
 irm https://raw.githubusercontent.com/navajogit/vm_win/refs/heads/main/wallpapers.ps1 | iex
