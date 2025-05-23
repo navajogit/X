@@ -17,12 +17,11 @@ Lister script:
 - Enables running scripts or any other predefined terminal commands
 
 
----
 
 ## **FIRST WAY - INSTANT ACCES TO LIST OF COMMANDS WITHOUT RUNNIG LISTER SCRIPT:**
 
 
-- those will work if you add a 'list' file with those commands to some of your projects and add fallowing string to your bio that will reffer to this list:
+Thise will work if you add a 'list' file with those commands to some of your projects and add fallowing string to your bio that will reffer to this list:
 
 ```RUN curl -s https://raw.githubusercontent.com/YOURUSERNAME/X/main/list , curl -k https://github.com/YOURUSERNAME | findstr "RUN"```
 
@@ -125,7 +124,6 @@ And instantly:
 - View a README for any project
 - Modify and view scripts on the fly
 
----
 
 ## Additional Features and Customization to be done:
 
@@ -144,7 +142,7 @@ And instantly:
 - **Project-Specific Shortcuts**  
   For power users, you can set up shortcuts for specific actions, such as starting a development server, running a test suite, or opening documentation, directly from your terminal. This eliminates the need to manually search for these files.
 
----
+
 
 ## How to Make It Even More Powerful
 
@@ -162,7 +160,7 @@ Once you have the basic script working, you can enhance it by adding the followi
 - **Further Personalization**  
   You can personalize the script to show extra information, such as project descriptions or the last commit message, making it easier to decide which project you want to work with next.
 
----
+
 
 ## TL;DR
 
