@@ -46,8 +46,8 @@ With this approach, you can instantly access all your project README files or sc
 
 ```curl -s https://github.com/YOURUSERNAME | grep -oPm 1 "curl[^*]+list" ```
 
-- those will work if you add a list file to some of your projects and add:
-  ```RUN curl -s https://raw.githubusercontent.com/YOURUSERNAME/X/main/list , curl -k https://github.com/YOURUSERNAME | findstr "RUN"``` to your bio
+- those will work if you add a 'list' file to some of your projects and add fallowing string to your bio:
+  ```RUN curl -s https://raw.githubusercontent.com/YOURUSERNAME/X/main/list , curl -k https://github.com/YOURUSERNAME | findstr "RUN"```
 
 
 **TO RUN: **
