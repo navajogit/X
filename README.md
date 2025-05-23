@@ -19,10 +19,7 @@ Lister script:
 
 ---
 
-## How It Works
-
-
-## **IRST WAY - INSTANT ACCES TO LIST OF COMMANDS WITHOUT RUNNIG LISTER SCRIP:**
+## **FIRST WAY - INSTANT ACCES TO LIST OF COMMANDS WITHOUT RUNNIG LISTER SCRIP:**
 
 **(add this to your bio):**
 
