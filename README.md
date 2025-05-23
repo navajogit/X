@@ -1,6 +1,6 @@
 # Terminal-Based GitHub README Lister
 
-If you're tired of navigating through GitHub's web interface just to find a project README or script with its raw url verssion, this tool is exactly what you need.
+If you're building a linux or windows VM and need a fast list of files and drivers to install without a brovser and you're tired of navigating through GitHub's web interface just to find a project README or script with this actions in a raw url verssion, this tool is exactly what you need.
 
 With this approach, you can instantly access all your project README files or scripts directly from the terminal, without having to remember or manually type paths. Plus, you can run scripts and access resources quickly without ever leaving your terminal.
 
@@ -39,25 +39,37 @@ With this approach, you can instantly access all your project README files or sc
    ```LAUNCH curl https://raw.githubusercontent.com/YOURUSERNAME/X/main/x.sh | bash,```
 
 
-**TO list only commands**
+**OR IF YOU WANT INSTANT ACCES TO LIST OF COMMANDS:**
 
-- those will work if you add a 'list' file to some of your projects and add fallowing string to your bio:
-  ```RUN curl -s https://raw.githubusercontent.com/YOURUSERNAME/X/main/list , curl -k https://github.com/YOURUSERNAME | findstr "RUN"```
-  
+- those will work if you add a 'list' file with those commands to some of your projects and add fallowing string to your bio:
+```RUN curl -s https://raw.githubusercontent.com/YOURUSERNAME/X/main/list , curl -k https://github.com/YOURUSERNAME | findstr "RUN"```
+
+Then to get them in termianal you need only typpe:
+
+**4 LINUX:**
+
+to display:
+
 ```curl -s https://github.com/YOURUSERNAME | grep -oPm 1 "curl[^*]+list" | bash```
+
+to show command:
 
 ```curl -s https://github.com/YOURUSERNAME | grep -oPm 1 "curl[^*]+list" ```
 
+**4 WIN:**
+
+```curl -k https://github.com/YOURUSERNAME | findstr "RUN"```
+
+and curl your output
 
 
-
-3. REBEMBER ONLY YOUR USERPROFILE AND ONE OF EACH COMMANDS TO GET WHAT YOU NEED IN YOUR TERMIANAL:
+**3. REBEMBER ONLY YOUR USERPROFILE AND ONE OF EACH COMMANDS TO GET WHAT YOU NEED IN YOUR TERMIANAL:**
 
 
 
 **TO RUN:**
 
-**In the terminal, run:**
+**In the terminal, go:**
 
    ```curl -s https://github.com/YOURUSERNAME | grep -oPm 1 'RUN \K[^,]+' | bash```
 
