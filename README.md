@@ -21,17 +21,16 @@ Lister script:
 
 ## **FIRST WAY - INSTANT ACCES TO LIST OF COMMANDS WITHOUT RUNNIG LISTER SCRIPT:**
 
-**(add this to your bio):**
 
-- those will work if you add a 'list' file with those commands to some of your projects and add fallowing string to your bio:
+- those will work if you add a 'list' file with those commands to some of your projects and add fallowing string to your bio that will reffer to this list:
 
 ```RUN curl -s https://raw.githubusercontent.com/YOURUSERNAME/X/main/list , curl -k https://github.com/YOURUSERNAME | findstr "RUN"```
 
-This project has to be listed on your github profile and be public.
+This first project with your list of commands has to be listed on your github profile and be public.
 
 Then to get them in termianal you need only typpe:
 
-**4 LINUX:**
+### **4 LINUX:**
 
 to display:
 
@@ -47,7 +46,7 @@ or simple:
 
 and find the right link manualy.
 
-**4 WIN:**
+### **4 WIN:**
 
 ```curl -k https://github.com/YOURUSERNAME | findstr "RUN"```
 
