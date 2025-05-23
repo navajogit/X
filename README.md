@@ -42,9 +42,11 @@ With this approach, you can instantly access all your project README files or sc
 
 **TO list only commands**
 
-```curl -s https://github.com/navajogit | grep -oPm 1 "curl[^*]+list" | bash```
+```curl -s https://github.com/YOURUSERNAME | grep -oPm 1 "curl[^*]+list" | bash```
 
-```curl -s https://github.com/navajogit | grep -oPm 1 "curl[^*]+list" ```
+```curl -s https://github.com/YOURUSERNAME | grep -oPm 1 "curl[^*]+list" ```
+
+- those will work if you add a list file to some of your projects and add ```RUN curl -s https://raw.githubusercontent.com/navajogit/X/main/list , curl -k https://github.com/navajogit | findstr "RUN"``` to your bio
 
 **TO RUN: **
 
