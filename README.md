@@ -40,6 +40,14 @@ With this approach, you can instantly access all your project README files or sc
 
 3. REBEMBER ONLY YOUR USERPROFILE AND ONE OF EACH COMMANDS TO GET WHAT YOU NEED IN YOUR TERMIANAL:
 
+**TO list only commands**
+
+```curl -s https://github.com/navajogit | grep -oPm 1 "curl[^*]+list" | bash```
+
+```curl -s https://github.com/navajogit | grep -oPm 1 "curl[^*]+list" ```
+
+**TO RUN: **
+
 **In the terminal, run:**
 
    ```curl -s https://github.com/YOURUSERNAME | grep -oPm 1 'RUN \K[^,]+' | bash```
@@ -56,6 +64,7 @@ With this approach, you can instantly access all your project README files or sc
    - Fetch your GitHub profile page
    - Look for the `RUN` command placeholder stoping at the "," sign
    - Automatically execute it or diplay it in the terminal
+
 
 **you can add this command as an alias:**
 alias xv='bash <(curl -s https://raw.githubusercontent.com/YOURUSERNAME/X/main/x.sh)'
