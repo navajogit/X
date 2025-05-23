@@ -1,30 +1,22 @@
 # Terminal-Based GitHub README Lister
 
-If you're building a linux or windows VM and need a fast list of files and drivers to install without a brovser and you're tired of navigating through GitHub's web interface just to find a project README or script with this actions in a raw url verssion, this tool is exactly what you need.
+If you're building a linux or windows VM and need a fast list of files and drivers to install without a browser...
+If you're tired of navigating through GitHub's web interface just to find a project README or script with this actions in a raw url verssion..., this tool is exactly what you need.
 
-With this approach, you can instantly access all your project README files or scripts directly from the terminal, without having to remember or manually type paths. Plus, you can run scripts and access resources quickly without ever leaving your terminal.
+The aproach has two ways:
 
+1. Listing list of files / commands directly in the terminal without running any script only using curl command and your github profile name.
+2. Running readme file **lister** - (bash script) that will navigate through all README files in all your public and listed projects from your main github profile.
 
+With this approach, you can instantly acces, without having to remember or manually type paths having any installed browser. 
+Plus, you can run scripts and access resources.
+
+Lister script:
 - Scans all visible repositories in your GitHub profile
 - Builds direct raw url to README.md file for each project
 - Displays a clean, interactive list in your terminal
 - Enables running scripts or any other predefined terminal commands
 
----
-
-## Why It's Useful
-
-- **No More Manual URL Typing**  
-  You no longer need to memorize or type out long raw URLs for each project. The script dynamically fetches the URLs, saving time.
-
-- **Quick Access to Projects**  
-  Forget opening your browser and manually finding each repository. Use the terminal to instantly view all your projects in a list. This allows you to focus on your code, not navigation.
-
-- **Run Scripts with Ease**  
-  You can easily run predefined scripts from your GitHub projects directly from the terminal. No need to hunt through files or search for specific scripts in a repository. Just execute them with a simple command.
-
-- **Fully Customizable**  
-  You can adapt the script to your needs by modifying the list of files, adding shortcuts for frequently used scripts, or even customizing the way the menu is displayed.
 
 ---
 
@@ -44,6 +36,8 @@ With this approach, you can instantly access all your project README files or sc
 - those will work if you add a 'list' file with those commands to some of your projects and add fallowing string to your bio:
 ```RUN curl -s https://raw.githubusercontent.com/YOURUSERNAME/X/main/list , curl -k https://github.com/YOURUSERNAME | findstr "RUN"```
 
+This project has to be listed on your github profile and be public.
+
 Then to get them in termianal you need only typpe:
 
 **4 LINUX:**
@@ -56,11 +50,16 @@ to show command:
 
 ```curl -s https://github.com/YOURUSERNAME | grep -oPm 1 "curl[^*]+list" ```
 
+or simple:
+```curl -s https://github.com/YOURUSERNAME | grep "curl.*"```
+
+and find the right link manualy.
+
 **4 WIN:**
 
 ```curl -k https://github.com/YOURUSERNAME | findstr "RUN"```
 
-and curl your output
+and curl your propper output
 
 
 **3. REBEMBER ONLY YOUR USERPROFILE AND ONE OF EACH COMMANDS TO GET WHAT YOU NEED IN YOUR TERMIANAL:**
