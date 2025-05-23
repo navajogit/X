@@ -21,16 +21,10 @@ Lister script:
 
 ## How It Works
 
-1. Add this line to your GitHub profile bio:
-
-   ```RUN curl https://raw.githubusercontent.com/YOURUSERNAME/X/main/x.sh | bash,```
-
-   Alternatively, you can use any recognizable placeholder like:
-
-   ```LAUNCH curl https://raw.githubusercontent.com/YOURUSERNAME/X/main/x.sh | bash,```
 
 
-**OR IF YOU WANT INSTANT ACCES TO LIST OF COMMANDS:**
+
+**IF YOU WANT DO IT IN THE FIRST WAY AND HAVE INSTANT ACCES TO LIST OF COMMANDS WITH NOT RUNNIG LISTER (add this to your bio):**
 
 - those will work if you add a 'list' file with those commands to some of your projects and add fallowing string to your bio:
 
@@ -62,6 +56,14 @@ and find the right link manualy.
 
 and curl your propper output
 
+
+**1. TO RUN LISTER (Add this line to your GitHub profile bio):**
+
+   ```RUN curl https://raw.githubusercontent.com/YOURUSERNAME/X/main/x.sh | bash,```
+
+   Alternatively, you can use any recognizable placeholder like:
+
+   ```LAUNCH curl https://raw.githubusercontent.com/YOURUSERNAME/X/main/x.sh | bash,```
 
 **3. REBEMBER ONLY YOUR USERPROFILE AND ONE OF EACH COMMANDS TO GET WHAT YOU NEED IN YOUR TERMIANAL:**
 
