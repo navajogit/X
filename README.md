@@ -22,9 +22,7 @@ Lister script:
 ## How It Works
 
 
-
-
-## **IF YOU WANT DO IT IN THE FIRST WAY AND HAVE INSTANT ACCES TO LIST OF COMMANDS WITHOUT RUNNIG LISTER SCRIP:**
+## **IRST WAY - INSTANT ACCES TO LIST OF COMMANDS WITHOUT RUNNIG LISTER SCRIP:**
 
 **(add this to your bio):**
 
@@ -69,12 +67,11 @@ and curl your propper output
 
    ```LAUNCH curl https://raw.githubusercontent.com/YOURUSERNAME/X/main/x.sh | bash,```
 
-**3. REBEMBER ONLY YOUR USERPROFILE AND ONE OF EACH COMMANDS TO GET WHAT YOU NEED IN YOUR TERMIANAL:**
+**REBEMBER ONLY YOUR USERPROFILE AND ONE OF EACH COMMANDS TO GET WHAT YOU NEED IN YOUR TERMIANAL:**
 
 
-## Running Lister
+## Running Lister script:
 
-**TO RUN:**
 
 **In the terminal, go:**
 
