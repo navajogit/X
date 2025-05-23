@@ -24,7 +24,9 @@ Lister script:
 
 
 
-## **IF YOU WANT DO IT IN THE FIRST WAY AND HAVE INSTANT ACCES TO LIST OF COMMANDS WITH NOT RUNNIG LISTER (add this to your bio):**
+## **IF YOU WANT DO IT IN THE FIRST WAY AND HAVE INSTANT ACCES TO LIST OF COMMANDS WITHOUT RUNNIG LISTER SCRIP:**
+
+**(add this to your bio):**
 
 - those will work if you add a 'list' file with those commands to some of your projects and add fallowing string to your bio:
 
@@ -57,7 +59,9 @@ and find the right link manualy.
 and curl your propper output
 
 
-## **1. TO RUN LISTER (Add this line to your GitHub profile bio):**
+## **1. TO RUN LISTER SCRIPT:**
+
+**(Add this line to your GitHub profile bio):**
 
    ```RUN curl https://raw.githubusercontent.com/YOURUSERNAME/X/main/x.sh | bash,```
 
