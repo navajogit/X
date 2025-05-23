@@ -18,7 +18,7 @@ Lister script:
 
 
 
-## **FIRST WAY - INSTANT ACCES TO LIST OF COMMANDS WITHOUT RUNNIG LISTER SCRIPT:**
+## **1. FIRST WAY - INSTANT ACCES TO LIST OF COMMANDS WITHOUT RUNNIG LISTER SCRIPT:**
 
 
 Thise will work if you add a 'list' file with those commands to some of your projects and add fallowing string to your bio that will reffer to this list:
@@ -52,7 +52,7 @@ and find the right link manualy.
 and curl your propper output
 
 
-## **1. TO RUN LISTER SCRIPT:**
+## **2. LISTER SCRIPT:**
 
 **(Add this line to your GitHub profile bio):**
 
@@ -65,7 +65,7 @@ and curl your propper output
 **REBEMBER ONLY YOUR USERPROFILE AND ONE OF EACH COMMANDS TO GET WHAT YOU NEED IN YOUR TERMIANAL:**
 
 
-## Running Lister script:
+## Running:
 
 
 **In the terminal, go:**
