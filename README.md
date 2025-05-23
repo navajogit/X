@@ -66,6 +66,7 @@ and curl your output
 **3. REBEMBER ONLY YOUR USERPROFILE AND ONE OF EACH COMMANDS TO GET WHAT YOU NEED IN YOUR TERMIANAL:**
 
 
+## Running Lister
 
 **TO RUN:**
 
@@ -98,6 +99,10 @@ alias xv='bash <(curl -s https://raw.githubusercontent.com/YOURUSERNAME/X/main/x
    - Allow you to view any README or launch a script with one simple selection
 
 ---
+
+
+**YOu can check the raw lister script [here](https://raw.githubusercontent.com/navajogit/X/refs/heads/main/x.sh).
+
 
 ## Example Use Case
 
