@@ -8,8 +8,7 @@ The aproach has two ways:
 1. Listing list of files / commands directly in the terminal without running any script only using curl command and your github profile name.
 2. Running readme file **lister** - (bash script) that will navigate through all README files in all your public and listed projects from your main github profile.
 
-With this approach, you can instantly acces, without having to remember or manually type paths having any installed browser. 
-Plus, you can run scripts and access resources.
+With this approach, you can instantly acces anything and run anything, without having to remember or manually type paths, and not having any browser. 
 
 Lister script:
 - Scans all visible repositories in your GitHub profile
@@ -34,6 +33,7 @@ Lister script:
 **OR IF YOU WANT INSTANT ACCES TO LIST OF COMMANDS:**
 
 - those will work if you add a 'list' file with those commands to some of your projects and add fallowing string to your bio:
+
 ```RUN curl -s https://raw.githubusercontent.com/YOURUSERNAME/X/main/list , curl -k https://github.com/YOURUSERNAME | findstr "RUN"```
 
 This project has to be listed on your github profile and be public.
@@ -98,8 +98,7 @@ alias xv='bash <(curl -s https://raw.githubusercontent.com/YOURUSERNAME/X/main/x
    - Generate a dynamic list of raw README links (you can cutomize it to detect some other files like scripts with a specific name)
    - Allow you to view any README or launch a script with one simple selection
 
----
-
+## CRIPT:
 
 **YOu can check the raw lister script [here](https://raw.githubusercontent.com/navajogit/X/refs/heads/main/x.sh).
 
@@ -168,7 +167,40 @@ Once you have the basic script working, you can enhance it by adding the followi
 
 ## TL;DR
 
-- Use `curl -s https://github.com/YOURUSERNAME | grep -oPm 1 'RUN \K[^,]+' | bash` or `curl -s https://github.com/YOURUSERNAME | grep -oPm 1 'RUN \K[^,]+'` or `bash <(curl -s https://github.com/YOURUSERNAME | grep -oPm 1 'RUN \K[^,]+')` from your terminal
-- Access all your projects, view their README files, and run scripts easily from the terminal
-- Customize the script to suit your workflow and streamline your GitHub experience
+FOR simple listing:
+
+**4 LINUX:**
+
+to display:
+
+```curl -s https://github.com/YOURUSERNAME | grep -oPm 1 "curl[^*]+list" | bash```
+
+to show command:
+
+```curl -s https://github.com/YOURUSERNAME | grep -oPm 1 "curl[^*]+list" ```
+
+or simple:
+
+```curl -s https://github.com/YOURUSERNAME | grep "curl.*"```
+
+and find the right link manualy.
+
+**4 WIN:**
+
+```curl -k https://github.com/YOURUSERNAME | findstr "RUN"```
+
+
+**FOT RUNNING LISTER:**
+
+- Use:
+  `curl -s https://github.com/YOURUSERNAME | grep -oPm 1 'RUN \K[^,]+' | bash`
+
+  or
+
+  `curl -s https://github.com/YOURUSERNAME | grep -oPm 1 'RUN \K[^,]+'`
+
+   or
+
+  `bash <(curl -s https://github.com/YOURUSERNAME | grep -oPm 1 'RUN \K[^,]+')`
+
 
