@@ -98,7 +98,7 @@ alias xv='bash <(curl -s https://raw.githubusercontent.com/YOURUSERNAME/X/main/x
 
 ## CRIPT:
 
-**YOu can check the raw lister script [here](https://raw.githubusercontent.com/navajogit/X/refs/heads/main/x.sh).**
+**Check the raw lister script [here](https://raw.githubusercontent.com/navajogit/X/refs/heads/main/x.sh).**
 
 
 ## Example Use Case
