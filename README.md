@@ -38,19 +38,24 @@ With this approach, you can instantly access all your project README files or sc
 
    ```LAUNCH curl https://raw.githubusercontent.com/YOURUSERNAME/X/main/x.sh | bash,```
 
-3. REBEMBER ONLY YOUR USERPROFILE AND ONE OF EACH COMMANDS TO GET WHAT YOU NEED IN YOUR TERMIANAL:
 
 **TO list only commands**
 
+- those will work if you add a 'list' file to some of your projects and add fallowing string to your bio:
+  ```RUN curl -s https://raw.githubusercontent.com/YOURUSERNAME/X/main/list , curl -k https://github.com/YOURUSERNAME | findstr "RUN"```
+  
 ```curl -s https://github.com/YOURUSERNAME | grep -oPm 1 "curl[^*]+list" | bash```
 
 ```curl -s https://github.com/YOURUSERNAME | grep -oPm 1 "curl[^*]+list" ```
 
-- those will work if you add a 'list' file to some of your projects and add fallowing string to your bio:
-  ```RUN curl -s https://raw.githubusercontent.com/YOURUSERNAME/X/main/list , curl -k https://github.com/YOURUSERNAME | findstr "RUN"```
 
 
-**TO RUN: **
+
+3. REBEMBER ONLY YOUR USERPROFILE AND ONE OF EACH COMMANDS TO GET WHAT YOU NEED IN YOUR TERMIANAL:
+
+
+
+**TO RUN:**
 
 **In the terminal, run:**
 
